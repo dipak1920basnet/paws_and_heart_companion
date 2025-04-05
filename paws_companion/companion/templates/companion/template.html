@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+    <title>Document</title>
+    {% endblock %}
+    <link rel="stylesheet" href="{% static 'companion/template_style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="logos">
+            <h1> Paws and Hearts </h1>
+        </div>
+        <div class="navigation">
+            <nav>
+                <a href=""> Home </a>
+                <a href=""> Available Pets </a>
+                <a href=""> Adaption Process </a>
+                <a href=""> About US </a>
+                <a href=""> Contact Us </a>
+            </nav>
+        </div>
+
+        <div class="adopt">
+            <h1>
+                Adopt Now
+            </h1>
+        </div>
+
+    </header>
+    {% block body %}
+
+    {% endblock %}
+
+    <footer>
+
+    </footer>
+</body>
+</html>

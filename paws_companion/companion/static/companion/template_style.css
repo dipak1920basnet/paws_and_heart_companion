@@ -1,0 +1,18 @@
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.navigation > nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation > nav > a
+{
+    margin: 2%;
+}
